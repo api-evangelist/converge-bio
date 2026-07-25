@@ -1,8 +1,14 @@
 aid: converge-bio
 name: Converge Bio
-description: 'Converge Bio is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Converge Bio is a generative-AI platform for life sciences that accelerates drug development
+  across discovery, molecular design, and manufacturing. It trains Bio-LLM foundation models directly on
+  biological languages (DNA, RNA, and protein sequences) and delivers them through the Converge Computational
+  Lab, whose applications include ConvergeAB (AI antibody design across IgG/VHH/bispecific formats),
+  ConvergeGEO (protein gene-expression optimization across CHO/HEK293/E. coli and other cell systems),
+  ConvergeCELL (virtual cell simulation for target and biomarker discovery), and a Patent Extractor for
+  mining antibody sequences. The platform is delivered to biotech and pharmaceutical customers under a
+  Request Access engagement model; there is no public developer API, SDK, or self-serve documentation
+  surface today. Backed by Bessemer Venture Partners ($25M Series A, January 2026); founded 2023.'
 url: https://raw.githubusercontent.com/api-evangelist/converge-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,32 @@ x-backed-by:
 - bessemer-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/assets/3MosxeGKxrmsbR7VQX5B7ChJ5xg.png
 tags:
 - Company
 - Ai Ml
+- Drug Discovery
+- Generative AI
+- Biotech
+- Pharmaceutical
+- Antibody Design
+- Genomics
+- Life Sciences
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/converge-bio-domain-security.yml
+- type: LLMsTxt
+  url: llms/converge-bio-llms.txt
 - type: Website
   url: https://converge-bio.com/
+- type: Blog
+  url: https://converge-bio.com/blog
+- type: Support
+  url: https://converge-bio.com/contact
+- type: TermsOfService
+  url: https://converge-bio.com/docs/terms-of-use
+- type: PrivacyPolicy
+  url: https://converge-bio.com/docs/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/ConvergeBio
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

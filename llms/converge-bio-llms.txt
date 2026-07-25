@@ -1,0 +1,31 @@
+# Converge Bio
+
+> Converge Bio is a generative-AI platform for life sciences that accelerates drug development across discovery, molecular design, and manufacturing. It trains Bio-LLM foundation models directly on biological languages (DNA, RNA, and protein sequences) and delivers them through the Converge Computational Lab. There is no public developer API, SDK, or self-serve documentation surface today — the platform is delivered to biotech and pharmaceutical customers under a "Request Access" engagement model.
+
+## Products
+- [ConvergeAB (Antibody Design)](https://converge-bio.com/): AI-driven antibody discovery, screening, and optimization across IgG, VHH, and bispecific formats.
+- [ConvergeGEO (Gene Expression Optimization)](https://converge-bio.com/): Generative AI for protein-expression optimization across CHO, HEK293, E. coli, K. phaffii, and S. cerevisiae cell systems.
+- [ConvergeCELL (Virtual Cell Simulation)](https://converge-bio.com/): Simulates cellular responses across patient populations for target discovery and biomarker identification.
+- [Patent Extractor](https://converge-bio.com/): Mines antibody sequences from patents.
+
+## Company
+- [Website](https://converge-bio.com/)
+- [About](https://converge-bio.com/about)
+- [Blog](https://converge-bio.com/blog)
+- [News](https://converge-bio.com/news)
+- [Case Studies](https://converge-bio.com/case-studies)
+- [Resources](https://converge-bio.com/resources)
+- [Careers](https://converge-bio.com/careers)
+- [Contact / Request Access](https://converge-bio.com/contact)
+- [LinkedIn](https://www.linkedin.com/company/converge-bio)
+- [GitHub](https://github.com/ConvergeBio)
+
+## Legal
+- [Terms of Use](https://converge-bio.com/docs/terms-of-use)
+- [Privacy Policy](https://converge-bio.com/docs/privacy-policy)
+- [Cookie Policy](https://converge-bio.com/docs/cookie-policy)
+
+## Notes
+- No public REST/GraphQL API, OpenAPI spec, SDK, package, MCP server, or OAuth surface was found (checked /.well-known/*, /llms.txt, npm/PyPI, and the docs site) as of 2026-07-18.
+- Open-source research: [ConvergeBio/B2SC](https://github.com/ConvergeBio/B2SC) — a bulk-to-single-cell RNA-seq deep-learning framework (PyTorch, AnnData).
+- Backed by Bessemer Venture Partners ($25M Series A, Jan 2026); founded 2023, Israeli-founded.
